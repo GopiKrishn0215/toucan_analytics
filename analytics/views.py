@@ -14,7 +14,7 @@ def analytics(request):
     if request.method == "GET":
         file = open('/home/ubuntu/Taigo/analytics_env/toucan_analytics/Data/data_for_database.csv',mode='r')
         data = csv.reader(file)
-        dL = list(data)clear
+        dL = list(data)
         dataList = dL[1:]
         for row in dataList:
             customerid = row[1]
