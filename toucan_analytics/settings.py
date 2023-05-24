@@ -79,8 +79,8 @@ DATABASES = {
         "ENGINE": "django.db.backends.mysql",
         "NAME": "customer_data",
         "USER": "admin",
-        "PASSWORD": "Admin2000",
-        "HOST": "django-db-server.cqqqpmbhao8s.ap-south-1.rds.amazonaws.com",
+        "PASSWORD": "admin2000",
+        "HOST": "django-database-server.cymwiukd5im5.eu-north-1.rds.amazonaws.com",
         "PORT": "3306",
     }
 }
